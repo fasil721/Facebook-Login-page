@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+         <div class="header">
+             <div class="logo">
+                <a>
+                    <img class="logo-img" src="Facebook-Logo.png" alt="facebook">
+                </a>
+             </div>
+             <div class="login">
+                 <form action="">
+                 <table class="login-controls">
+                    <tr>
+                        <td>
+                            <label for="">Email or phone</label>
+                        </td>
+                        <td>
+                            <label for="">Password</label>
+                        </td>
+                    </tr>
+                    <tr>
+                       <td>
+                
+                               <input type="text" id="email">
+                    
+                       </td>
+                       <td>
+            
+                               <input type="text" id="password">
+                    
+                       </td>
+                       <td><input  class="button" type="submit" value="Log In"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <a class="forgotten" href="">Forgotten account?</a>
+                        </td> 
+                     </tr>
+                 </table>
+                 </form>
+             </div>
+         </div>
+         <div class="main-body">
+             <div class="left-section">
+                 <p class="para">Facebook helps you connect and share with the <br> people in your life.</p>
+                 <img class="image" src="fb.png" alt="">
+             </div>
+             <div class="right-section" >
+                 <h1>Create an account</h1>
+                 <p>It's quick and easy.</p>
+                 <form action="" id="signup-form">
+                    <input name="fname" class="name" type="text" placeholder="First Name">
+                    <input name="sname" class="name" type="text" placeholder="surname"><br>
+                    <input name="emailAddress" class="contact" type="text" placeholder="Email address or mobile number"><br>
+                    <input name="password" class="contact" type="text" placeholder="New password"><br>
+                    <div class="birthday">Birthday</div>
+                     <select class="date" name="day" id="">
+                       <option value="">Day</option>
+                       <option value="1">1</option>
+                       <option value="2">2</option>
+                       <option value="3">3</option>
+                     </select>
+                     <select class="date" name="month" id="">
+                       <option value="">month</option>
+                       <option value="1">jan</option>
+                       <option value="2">feb</option>
+                       <option value="3">mar</option>
+                    </select>
+                    <select class="date" name="year" id="">
+                    <option value="">year</option>
+                       <option value="2003">2003</option>
+                       <option value="2002">2002</option>
+                       <option value="2001">2001</option>
+                       <option value="2000">2000</option>
+
+   
+                    </select>
+                    <img class="img" src="Information.png" alt=""><br>
+                    <div class="birthday">Gender</div>
+                    <li class="list">
+                    <input type="radio" name="gender">
+                    <label>Female</label>
+                    <input type="radio" name="gender">
+                    <label>Male</label>
+                    <input type="radio" name="gender">
+                    <label>Costum</label>
+                    <img src="Information.png" alt="">
+                    </li><br>
+                    <div class="terms">By clicking Sign Up, you agree to our
+                        <a href="">Terms, Data Policy</a>and <br>
+                        <a href="">Cookies Policy</a>. You may receive SMS notifications from us and <br>can opt out at any time.
+                    </div><br>
+                    <div class="create">
+                        <input  type="submit" value="Sign Up">
+                        <p>
+                           <a href="">Create a page</a> for a celebrity, band or business.
+                        </p> 
+                    </div>
+                 </form>
+                
+             </div>
+         </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

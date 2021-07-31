@@ -1,0 +1,255 @@
+.header{
+    background: #3f5c9a;
+    width: 100%;
+    height: 87px;
+    float: left;
+}
+body{
+    margin: 0;
+    font-family: helvetica neue,Arial, Helvetica, sans-serif;
+
+}
+.logo{
+    width: 50%;
+    padding-top: 20px;
+    float: left;
+}
+.login{
+    width: 50%;
+    float: left;
+
+}
+.logo-img{
+   
+    margin-left: 270px;
+   
+    height: 50px;
+    width: 200px;
+}
+.login-controls label{
+    color: #fff;
+    font-size: 12px;
+    margin-left: 6px;
+}
+#email,#password{
+    
+    width: 150px;
+    height: 22px;
+   
+    margin-left: 6px;
+  
+    border: 1px solid #ccd0d5;
+    border-color: #1d2a5b;
+
+}
+
+.login-controls{
+    margin-left: 90px;
+    margin-top: 8px;
+}
+.box1{
+    width: 150px;
+    height: 18px;
+    margin-top: 4px;
+}
+.box2{
+    width: 150px;
+    height: 18px;
+    margin-top: 4px;
+    
+}
+.forgotten{
+    color: #9cb4d8;
+    font-size: 12px;
+    margin-left: 6px;
+    text-decoration:none;
+ 
+    
+}
+.button{
+   
+    
+    background-color: #4267b2;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 18px;
+   
+    margin-left: 14px;
+    padding: 2.5px 6.5px;
+    text-align: center;
+    border: 1px solid #29487d;
+    border-radius: 2px;
+    margin-left: 14px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.button:hover{
+    background: #29487d;
+}
+.main-body{
+    width: 100%;
+    height: 675px;
+    background: linear-gradient(white, rgb(178, 183, 202));
+}
+.left-section{
+    width: 55%;
+    height: 500px;
+    padding-top: 20px;
+
+    float: left;
+}
+.right-section{
+    width: 40%;
+    height: 500px;
+    float: left;
+    margin-left: 14px;
+    
+    
+}
+.para{
+    margin-left: 270px;
+    float: left;
+    font-size: 20px;
+    color: #0e385f;
+    font-family: arial;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 40px;
+    width: 580px;
+    height: 37px;
+    word-spacing: -1px;
+    display: block;
+}
+.image{
+    margin-left: 270px;
+    width: 537px;
+    height: 195px;
+    margin-bottom: 15px;
+}
+.right-section h1{
+    margin-top: 40px;
+    color: #333;
+}
+.right-section p{
+    height: 3px;
+    font-size: 20px;
+    font-family: arial;
+    margin-top: -14px;
+    color: #333;
+}
+.name{
+    margin-top: -10px;
+    width: 172px;
+    font-size: 18px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    position: relative;
+    border: 1px solid #bdc7d8;
+    margin: 5px 0px 5px 0px;
+}
+.contact{
+    
+    width: 375px;
+    font-size: 18px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    position: relative;
+    border: 1px solid #bdc7d8;
+    margin: 5px 0px 5px 0px;
+}
+.birthday{
+ 
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    color:#90949c;
+    font-size: 16px;
+    
+}
+.date{
+    background-color: #fff;
+    color: #1c1e21;
+    padding: 4px;
+    float: left;
+   
+}
+.img{
+    margin-left: 10px;
+    width:15px;
+    height: 15px;
+    margin-top: 4px;
+}
+.list label{
+    color: #1d2129;
+    font-size: 20px;
+    font-weight: normal;
+    display: inline-block;
+    padding: 0 0px 0 3px;
+}
+.list{
+    list-style: none;
+   
+    margin: 0px 12px -23px -1px; 
+}
+.list img{
+    margin-left: 20px;
+    width:15px;
+    height: 15px;
+}
+.terms{
+    
+    color: #777;
+    font-size: 11px;
+    width: 316px;
+    line-height: 135%;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.terms a{
+    color: #9bb4d8;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline;
+}
+.create input{
+    
+    min-width: 194px;
+    height: 42px;
+    text-align: center;
+    font-size: 19px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-family: 'Freight Sans Bold', helvetica, arial, sans-serif !important;
+    font-weight: bold !important;
+    background: linear-gradient(#67ae55, #578843);
+    box-shadow: inset 0 1px 1px #a4e388;
+    border: 1px solid #3b6e22;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 50%);
+}
+.create p{
+    
+    color: #666;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 15px;
+}
+.create a{
+    
+    color: #385898;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline;
+}
+
